@@ -1,11 +1,3 @@
-#!/bin/bash
-## Copyright ©UDPTeam
-## Discord: https://discord.gg/civ3
-## Script to keep-alive your DNSTT server domain record query from target resolver/local dns server
-## Run this script excluded to your VPN tunnel (split vpn tunneling mode)
-## run command: ./globe-killfreenet3.sh l
-
-## Your DNSTT Nameserver & your Domain `A` Record
 NS='ns-sg3dns.srvdns.us'
 A='ns-sg3dns.srvdns.us'
 ## Repeat dig cmd loop time (seconds) (positive interger only)
